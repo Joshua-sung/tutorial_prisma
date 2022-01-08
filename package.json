@@ -1,0 +1,9 @@
+{
+  "name": "workplace",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/Joshua-sung/tutorial_prisma.git",
+  "author": "joshua <krjoshua21@gmail.com>",
+  "license": "MIT"
+}
