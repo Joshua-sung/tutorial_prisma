@@ -1,3 +1,25 @@
-type Query {
+type movie {
+    id: Int!
     name: string!
+    score: Int!
+}
+
+type Query {
+    movies: [movie]!
+    movie(id : Int!): movie
+    titles(limit: Int, rating: float): [title]!
+}
+
+type Mutation {
+    addMovie(name: string!, score: Int!): movie!
+    deleteMovie(id: Int!): Boolean!
+}
+
+type Title {
+    id: Int!
+    title: string!
+    rating: Float!
+    summary: string!
+    language: strung!
+    medium_cover_image: string! 
 }
