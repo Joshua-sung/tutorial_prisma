@@ -23,3 +23,5 @@ type Title {
     language: strung!
     medium_cover_image: string! 
 }
+
+# Django RESTAPI 개발할때의 models.py 같이 각 테이블의 컬럼에 어떤것이 들어갈지 어떤타입인지 정함 

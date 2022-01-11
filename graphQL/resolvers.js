@@ -13,3 +13,5 @@ const resolvers = {
 };
 
 export default resolvers;
+
+//Django,RESTAPI 방식으로 개발할때 view.py 와 같이 어떤 요청에 어떤 내용을 실행할지 정함
