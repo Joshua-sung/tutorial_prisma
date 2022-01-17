@@ -55,7 +55,6 @@ const API_URL = "https://yts.mx/api/v2/list_movies.json";
 //     fetch('${API_URL}')
 //     .then(res => res.json())
 //     .then(json => json.data.titles);
-
 export const getTitles = (limit,rating) => {
     let REQUEST_URL = API_URL;
     if (limit > 0) {
